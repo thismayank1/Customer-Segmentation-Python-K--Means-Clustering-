@@ -45,14 +45,14 @@ pip install pandas matplotlib seaborn plotly scikit-learn
 ### Elbow Method
 The **Elbow Method** helps determine the optimal number of clusters. The plot shows the Within-Cluster Sum of Squares (WCSS), with an "elbow" around **K = 3**, indicating that 3 clusters provide the best balance.
 
-![Elbow Method Plot][Screenshot 2025-04-03 123224](https://github.com/user-attachments/assets/4bd7b7de-1fb6-4bba-acdf-d7ad1af368ad)
+![Screenshot 2025-04-03 123224](https://github.com/user-attachments/assets/4bd7b7de-1fb6-4bba-acdf-d7ad1af368ad)
 
 
 ### Customer Segmentation
 The PCA-reduced visualization of customer segmentation helps understand distinct groups. The clusters are color-coded for easy interpretation.
 
-![Customer Segmentation Plot](![Screenshot 2025-04-03 123224](https://github.com/user-attachments/assets/e36def2b-e8b0-4256-945e-c960f41b236f)
-)
+![Screenshot 2025-04-03 123332](https://github.com/user-attachments/assets/886fd2f6-66a8-4a73-8bd3-0f9422755c62)
+
 
 ## Contributing
 Feel free to fork this repository and submit pull requests if you want to improve the project!
