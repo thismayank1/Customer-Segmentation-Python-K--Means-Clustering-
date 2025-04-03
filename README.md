@@ -42,17 +42,20 @@ pip install pandas matplotlib seaborn plotly scikit-learn
    ```
 
 ## Results
-- The model assigns each customer to a cluster.
-- The results are saved in `customer_segments.csv`.
-- Interactive visualizations help understand customer behavior.
-  ![Screenshot 2025-04-03 123332](https://github.com/user-attachments/assets/7e48a44d-8882-498f-8870-58f3f17a41b0)
-  ![Screenshot 2025-04-03 123224](https://github.com/user-attachments/assets/43c6bf74-7013-49ee-906d-f827ff4fe148)
+### Elbow Method
+The **Elbow Method** helps determine the optimal number of clusters. The plot shows the Within-Cluster Sum of Squares (WCSS), with an "elbow" around **K = 3**, indicating that 3 clusters provide the best balance.
 
+![Elbow Method Plot](Screenshot_2025-04-03_123224.png)
 
+### Customer Segmentation
+The PCA-reduced visualization of customer segmentation helps understand distinct groups. The clusters are color-coded for easy interpretation.
+
+![Customer Segmentation Plot](Screenshot_2025-04-03_123332.png)
 
 ## Contributing
 Feel free to fork this repository and submit pull requests if you want to improve the project!
 
 ## License
 This project is licensed under the MIT License.
+
 
